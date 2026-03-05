@@ -67,8 +67,8 @@ while robot.step(timestep) != -1:
     # This is where your robot logic goes
     
     # Simple behavior: move forward
-    left_speed = 10.0
-    right_speed = 10.0
+    left_speed = 5.0
+    right_speed = 5.0
     
     # ----- SEND COMMANDS TO MOTORS -----
     left_motor.setVelocity(left_speed)
